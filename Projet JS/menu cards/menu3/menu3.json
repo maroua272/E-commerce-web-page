@@ -1,0 +1,44 @@
+[
+    {
+        "category": "instant",
+        "id" : 13,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Arabica",
+        "prix":60
+    },
+    {
+        "category": "instant",
+        "id" : 14,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Robusta",
+        "prix":60
+    },
+    {
+        "category": "instant",
+        "id" : 15,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Excelsa",
+        "prix":50
+    },
+    {
+        "category": "instant",
+        "id" : 16,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Liberica",
+        "prix":50
+    },
+    {
+        "category": "instant",
+        "id" : 17,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Bourbon",
+        "prix":40
+    },
+    {
+        "category": "instant",
+        "id" : 18,
+        "img" :"https://images.printify.com/mockup/6677683d49392b815002b821/105837/103306?s=608&t=1719101501000",
+        "nom":"Catimor",
+        "prix":40
+    }
+]

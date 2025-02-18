@@ -1,0 +1,106 @@
+h2{
+    margin-top: 150px;
+    padding-top: 30px;
+    margin-bottom: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c5040;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+tr th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c5040;
+    background-color: rgb(186, 173, 155);
+}
+tr td{
+    background-color: rgb(222, 217, 214);
+}
+
+    body {
+        margin-top: 20px;
+        background: #eee;
+    }
+
+    .ui-w-40 {
+        width: 40px !important;
+        height: auto;
+    }
+
+    .card {
+        box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .08);
+    }
+
+    .ui-product-color {
+        display: inline-block;
+        overflow: hidden;
+        margin: .144em;
+        width: .875rem;
+        height: .875rem;
+        border-radius: 10rem;
+        -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+        vertical-align: middle;
+    }
+button{
+    width: 90px;
+    margin-left: 90%;
+    padding-left: 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    margin-top: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(186, 173, 155);
+}
+thead{
+    margin-left: 40px;
+}
+.qtn input[type='text']{
+    padding-left: 47%;
+}
+.prix{
+    padding-left: 2.5%;
+    padding-right: 2%;
+    color: black;
+    font-size: medium;
+}
+.total{
+    padding-left: 2%;
+}
+.Discount,
+.text-large
+{
+    margin-left: 90%;
+    margin-bottom: 20px;
+}
+
+.text-large2, 
+.prix-t{
+    
+    margin-left: 90%;
+}
+.remove{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.promocode{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.table-responsive{
+    margin-left: 130px;
+}
+.coffee-img{
+    width: 40px;
+    height: 40px;
+}
+.p h5{
+    margin-left: 45%;
+    font-size: x-large;
+}

@@ -1,0 +1,38 @@
+[
+    {   "category": "bean",
+        "id" : 1,
+        "img" :"https://images.printify.com/mockup/66579959ae23d729fa0f067a/104853/101856?s=2048&t=1717016922000",
+        "nom":"Arabica",
+        "prix":60
+    },
+    {   "category": "bean",
+        "id" : 2,
+        "img" :"https://images.printify.com/mockup/6669be0192a5eba503078112/104846/101864?s=2048&t=1718205953000",
+        "nom":"Robusta",
+        "prix":60
+    },
+    {   "category": "bean",
+        "id" : 3,
+        "img" :"https://images.printify.com/mockup/6669a6a2453dcac3630980be/104846/101864?s=608&t=1718199970000",
+        "nom":"Excelsa",
+        "prix":50
+    },
+    {   "category": "bean",
+        "id" : 4,
+        "img" :"https://images.printify.com/mockup/6669bffa2832dde6cd0516fa/104852/101853?s=608&t=1718206458000",
+        "nom":"Liberica",
+        "prix":50
+    },
+    {   "category": "bean",
+        "id" : 5,
+        "img" :"https://images.printify.com/mockup/6669c1bf7ecc5a65c008c43b/104852/101853?s=2048&t=1718206911000",
+        "nom":"Bourbon",
+        "prix":40
+    },
+    {   "category": "bean",
+        "id" : 6,
+        "img" :"https://images.printify.com/mockup/6669c2a7bc7623387406d5ff/104852/101853?s=2048&t=1718207143000",
+        "nom":"Catimor",
+        "prix":40
+    }
+]

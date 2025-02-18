@@ -1,0 +1,82 @@
+body{
+    margin:auto;
+    padding: auto;
+    background-image: url(./image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.lg{
+    font-family: Lucida Handwriting;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350;
+    height: 420;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 5%;
+    padding-top: 50px;
+    border-radius: 12px;
+}
+h2{
+    text-align:center ;
+    color: #d3c5bb;
+}
+.lg p{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: bold;
+    color: #d3c5bb;
+}
+.lg input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.lg input[type="email"], .lg input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d3c5bb;
+    background: transparent;
+    color: #d3c5bb;
+    height:40px;
+    font-size: 16px;
+}
+.lg input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #2b6268;
+    font-size: 16px;
+    background: #d3c5bb;  
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Lucida Handwriting;
+    font-size: larger;
+}
+.lg input[type="submit"]:hover{
+    background-color: #2b6268;
+    color: #d3c5bb;
+}
+.lg a{
+    color: #d3c5bb;
+    font-size: small;
+    font-weight: bolder;
+    text-decoration: none;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 500px) {
+    body {
+        flex: content;
+        background-image: url(./image3.jpeg);
+    }
+  }

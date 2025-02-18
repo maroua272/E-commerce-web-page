@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.m-btn{
+    margin-top: 10%;
+    margin-left: 20px;
+    width: 140px;
+    height: 51px;
+}
+.m-btn a{
+    text-decoration: none;
+    color: #d1bfb2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+button{
+    height: 40px; 
+    width: 70px;
+    border-radius: 10px;
+    background-color: #2b6268;
+    color: #d1bfb2; 
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styleA.css">
+    <script src="/panier/panier.js"></script>
+</head>
+<body>
+    <div class="cont">
+        <div id="nav-content">
+            <header class="head">
+                <a href="/acceuil/accueil.html" class="logo">
+                    <img src="/acceuil/logo.png" alt="">
+                </a>
+                <nav class="nav">
+                    <a href="/acceuil/accueil.html">Accueil</a>
+                    <a href="/a propos/about.html">À propos</a>
+                    <a href="/menu/index.html">Menu</a>
+                    <a href="/contact/contact.html">Contact</a>
+                </nav>
+                <div class="icon">
+                    <div class="menu" onclick="toggleMenu()"><i class="fa fa-bars" style="color: #2b6268;"></i></div>
+                    <div class="panier" id="cart-btn"><a href="/panier/index.html" ><i class="fa fa-cart-plus" style="color: #2b6268;"></i></a></div>
+                    <div class="connexion" id="connexion-btn"><a href="/authentification/login.html"><i class="fa fa-user" style="color: #2b6268;"></i></a></div>
+                </div>
+                <div class="nav-responsive-menu">
+                    <a href="/acceuil/accueil.html" class="active">Accueil</a><hr>
+                    <a href="/a propos/about.html">À propos</a><hr>
+                    <a href="/menu/index.html">Menu</a><hr>
+                    <a href="/contact/contact.html">Contact</a><hr>
+                </div>
+            </header>
+        </div>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Café frais le matin</h3>
+                <p>
+                    "Rien ne vaut l'arôme revigorant et la saveur riche du café frais du matin, 
+                    donnant le ton parfait pour une journée productive à venir."
+                </p>
+                <a href="/menu/index.html"><input type="button" id="btn" value="Prends ton café"></a>
+            </div>
+        </section>
+        <div class="c1">
+            <img src="/acceuil/listp.png" alt="">
+        </div>
+        <div class="search-filter">
+            <div class="filter">
+              <select name="coffee" id="coffee">
+                <option value="">Choisir un café</option>
+                <option value="bean">Grain de café</option>
+                <option value="green">Café vert</option>
+                <option value="instant">Café instantané</option>
+              </select>
+            </div>
+            <div class="container">
+                <div class="containe">
+                    <div class="conta"> 
+                        <div class="icone">
+                             <i class="fa fa-search"></i>
+                        </div>
+                        <input type="text" class="input" placeholder="Recherche...">
+                        <div class="button" type="submit">
+                            <button class="btn" onclick="searchCoffee()">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prix-filter" id="price">
+            <input type="radio" id="prix1" name="prix" value="60">
+            <label for="prix1">60 DH</label>
+            <input type="radio" id="prix2" name="prix" value="50">
+            <label for="prix2">50 DH</label>
+            <input type="radio" id="prix3" name="prix" value="40">
+            <label for="prix3">40 DH</label>
+        </div>
+        <div id="card-container" >
+            <div class="row" id="data"></div>
+        </div>
+        <div id="cards">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="script.js"></script>
+        </div>
+        
+        <div class="info">
+            <div class="info-h1">
+                <h1>Dynastie de BeanBuzz</h1>
+            </div>
+            <div class="info-list">
+                <ul>
+                    <li><i class='fas fa-shipping-fast'></i>Livraison gratuite</li>
+                    <li><i class="fas fa-coffee"></i>Café naturel</li>
+                    <li><i class="fa regular fa-calendar" style="font-size: 30px;"></i>En ligne 24|7</li>
+                    <li><i class='fas fa-medal'></i>Meilleur café depuis 2004</li>
+                </ul>
+            </div>
+            <div class="info-p">
+                <p>Depuis 2004, BeanBuzz s'engage à servir le meilleur café en ville. Nos grains soigneusement sélectionnés et nos techniques de torréfaction expertes garantissent une richesse et une saveur dans chaque tasse. Profitez d'une variété de délicieuses options de café préparées avec soin par nos baristas qualifiés. Savourez l'excellence dans chaque gorgée chez BeanBuzz.</p>
+            </div>
+        </div>
+        <div class="testimonials">
+            <h2>Nos clients adorent l'expérience en magasin que nous construisons</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <img src="./p1.jpeg" alt="">
+                    <h3>STELLA LARSON</h3>
+                    <p>"BeanBuzz a la meilleure sélection de grains de café ! J'adore la variété et la qualité qu'ils proposent."</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./p3.jpeg" alt="">
+                    <h3>NICK JOHNSON</h3>
+                    <p>"Le service clientèle chez BeanBuzz est excellent. Ils sont toujours aimables et serviables."</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./p2.jpeg" alt="">
+                    <h3>AMINA DAVIES</h3>
+                    <p>"BeanBuzz est devenu mon incontournable pour acheter des grains de café. Je ne peux pas commencer ma journée sans leurs délicieux cafés!"</p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer-content">
+            <div class="footer">
+                <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="#">À propos</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="col-2">
+                    <h3>NEWSLETTER</h3>
+                    <input type="email" placeholder="Entrez votre Email Adresse" required><br> 
+                    <input type="submit" name="subs" value="SUBSCRIBE NOW">
+                </div>
+                <div class="col-3">
+                    <h3>CONTACT</h3>
+                    <p>123, ABC Rue DEF 72</p>
+                    <p>Tetouan, Maroc, RM</p>
+                    <div class="icons">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
